@@ -1,11 +1,6 @@
 import myReact from './src/script/react.js'
 
-// const element = myReact.createElement(
-//     "div",
-//     { id: "foo" },
-//     myReact.createElement("div", {title: 'bar'}, "bar"),
-//     myReact.createElement("p", {}, "b"),
-// )
+
 /** @jsx myReact.createElement */
 const element = (<div id='foo'>
     <div className="bar">
