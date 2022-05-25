@@ -1,0 +1,11 @@
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bar > div {
+    padding: 5px 12px;
+    border-radius: 3px;
+    background: rgb(226, 72, 72);
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
