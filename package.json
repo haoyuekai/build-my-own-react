@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
-    "start": "webpack --watch"
+    "start": "live-server && webpack --watch"
   },
   "author": "",
   "license": "ISC",
