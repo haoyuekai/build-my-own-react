@@ -13,5 +13,12 @@ module.exports = {
                 exclude: /node_modules/
             }
         ]
+    },
+    devServer: {
+        static: './',
+        hot: true,
+        open: true,
+        compress: true,
+        port: 8888
     }
 };
